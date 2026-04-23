@@ -1,3 +1,4 @@
+<img width="482" height="698" alt="detection_sample1" src="https://github.com/user-attachments/assets/7373a9b0-4f7a-4e46-b4cb-c5e2b557975d" />
 # ANPR-Based Secure Vehicle Access & Traceability System
 **Target Hardware:** Raspberry Pi (ARM64) | **Project Status:** Active Development (Draft v0.1)
 
@@ -26,7 +27,7 @@ This project is an automated vehicle entry management system designed for high-s
 ### Evidence of Work
 #### 1. Real-Time Detection
 Below is a sample of the system identifying a vehicle and extracting the license plate for authorization check.
-![Sample Detection](./output/detection_sample1.png)
+<img width="482" height="698" alt="detection_sample1" src="https://github.com/user-attachments/assets/6347db60-a774-403b-a10d-dfaa36e89b5a" />
 
 #### 2. Security Audit Logs (SQLite)
 The system automatically populates the `security_audit.db`. Snapshot of structured traceability data:
