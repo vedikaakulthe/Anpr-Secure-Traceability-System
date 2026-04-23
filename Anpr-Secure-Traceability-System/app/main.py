@@ -8,10 +8,7 @@ import easyocr
 
 from .database import add_log_entry, init_db
 
-app = FastAPI(title="ANPR Secure Access - Production Draft")
-
-# --- CONFIGURATION ---
-# Security keys (Production mein ye .env file se aani chahiye)
+app = FastAPI(title="ANPR Secure Access")
 SECRET_KEY = "adani_rpi_secure_key" 
 ALGORITHM = "HS256"
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
@@ -51,7 +48,6 @@ def run_anpr(frame):
         
     return output
 
-# --- API ENDPOINTS ---
 @app.post("/scan")
 async def scan_vehicle(file: UploadFile = File(...), token: str = Depends(verify_token)):
     """Secured endpoint for real-time access control."""
