@@ -1,4 +1,3 @@
-<img width="482" height="698" alt="detection_sample1" src="https://github.com/user-attachments/assets/7373a9b0-4f7a-4e46-b4cb-c5e2b557975d" />
 # ANPR-Based Secure Vehicle Access & Traceability System
 **Target Hardware:** Raspberry Pi (ARM64) | **Project Status:** Active Development (Draft v0.1)
 
