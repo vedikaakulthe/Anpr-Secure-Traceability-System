@@ -26,7 +26,8 @@ This project is an automated vehicle entry management system designed for high-s
 ### Evidence of Work
 #### 1. Real-Time Detection
 Below is a sample of the system identifying a vehicle and extracting the license plate for authorization check.
-<img width="482" height="678" alt="detection_sample1" src="https://github.com/user-attachments/assets/4a5b5126-5ac4-4814-a78e-2f02c7c89073" />
+
+<img width="482" height="678" alt="detection_sample1" src="https://github.com/user-attachments/assets/06c05272-520b-4bef-b608-6f47ab489279" />
 
 
 #### 2. Security Audit Logs (SQLite)
